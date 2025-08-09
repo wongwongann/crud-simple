@@ -113,14 +113,14 @@ CREATE TABLE item_table (
 ```mermaid
 flowchart TD
     Start([Start])
-    Login[User accesses Inventory Page]
-    ShowTable[Show Inventory Table]
-    AddItem[User clicks "Add Item"]
-    EditItem[User clicks "Edit"]
-    DeleteItem[User clicks "Delete"]
-    TrashBin[User accesses Trash Bin]
-    Restore[User clicks "Restore"]
-    PermDelete[User clicks "Delete Permanently"]
+    Login([User accesses Inventory Page])
+    ShowTable([Show Inventory Table])
+    AddItem([User clicks Add Item])
+    EditItem([User clicks Edit])
+    DeleteItem([User clicks Delete])
+    TrashBin([User accesses Trash Bin])
+    Restore([User clicks Restore])
+    PermDelete([User clicks Delete Permanently])
     End([End])
 
     Start --> Login
@@ -142,3 +142,4 @@ flowchart TD
 - Penggunaan & Modifikasi: Proyek ini bebas digunakan dan dimodifikasi oleh siapa saja sesuai kebutuhan. Silakan kembangkan untuk keperluan pribadi, belajar, atau komersial.
 
 - Kontak & Kredit: Untuk pertanyaan, kolaborasi, atau info lebih lanjut, silakan hubungi pembuat di Instagram: [@feintzz333](https://instagram.com/feintzz333)
+
